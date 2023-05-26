@@ -1,0 +1,486 @@
+body{
+padding: 0px;
+margin: 0px;
+font-family: 'Alegreya', serif;
+}
+
+/* first section "home" */
+
+.container{
+width: 100%;
+height:122vh;
+background-image: url(images/modified-drew-coffman-1872.jpg);
+background-size: cover;
+background-position: center center;
+}
+
+
+
+
+
+
+.intro {
+    color: white;
+    padding: 200px 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 55%;
+    margin: auto;
+    line-height: 2px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+h1{
+    font-size: 69px;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    line-height: 2px;
+}
+
+
+
+.welcome{
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 2.1em;
+}
+
+
+.firstp{
+    font-size:20px;
+    line-height:40px;
+    margin-top: 4px;
+    margin-bottom:30px;
+    color: white;
+}
+
+.btn1{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: transparent;
+    border-radius: 5px;
+    padding: 16px 21px;
+    background-color:#8e7754;
+}
+
+
+.btn2{
+    color: white;
+    font-size: 14px;
+    font-weight:600;
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 14px 20px;
+    background-color:transparent;
+    margin-left: 7px;
+}
+
+
+/* nav bar */
+
+
+.navimg{
+    width: 35%;
+    float: left;
+    margin-left: 64px;
+    margin-top: 20px;
+}
+
+
+.navlist{
+    width: 50%;
+    float: right;
+}
+
+.navlist li{
+    list-style: none;
+    margin-left: 72px;
+}
+
+
+.navlist a{
+    color: #f1eee5;
+    text-decoration: none;
+    float: left;
+    padding: 14px 11px;
+    font-size: large;
+}
+
+/* second section "who we are?" */
+
+
+.loafimage{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.loafimage img{
+    width: 515px;
+    margin-left: 29px;
+    padding-top:31px;
+}
+
+
+.identity{
+    display: inline-block;
+    width: 40%;
+    text-align:top;
+    vertical-align: top;
+    padding: 115px 0px 20px 30px;
+    line-height: 30px;
+}
+
+.identity h2{
+font-weight: 400;
+font-size: 30px;
+}
+
+
+.identity p{
+    width: 550px;
+    font-weight: 100;
+    font-size: 15px;
+    color: #686868;
+    }
+
+.advantages{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+.advantages img{
+    width: 8%;
+    display: inline-block;
+    border-radius: 50% 50%;
+    border: rgb(214, 209, 209) solid 1px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+
+.advantages p{
+    width: 300px;
+    font-weight: 100;
+    font-size: 15px;
+    color:#686868;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 15px;
+}
+
+
+/* third section "our location"*/
+
+.location{
+    background-color: #f8f8f8;
+    margin-top: 70px;
+    height: 570px;
+}
+
+
+
+.locatechs{
+    margin-left: 65px;
+    margin-top: 140px;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.locatechs h2{
+    width: 50%;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.locatechs p{
+    width: 530px;
+    font-weight: 100;
+    font-size: 15px;
+    color: #686868;  
+    line-height: 29px;
+}
+
+
+
+.locateimg{
+    display: inline-block;
+    width: 45%;
+}
+
+
+
+.locateimg img{
+    width: 510px;
+    margin-left: -15px;
+    margin-top: 80px;
+
+}
+
+/* fourth section "our baking"*/
+
+
+.baking{
+    margin-top: 80px;
+    padding: 0 30px;
+    height: 635px;
+}
+
+.baking p{
+    color:#686868;
+    font-size: 15px;
+}
+.sec1{
+    float: left;
+    text-align: center;
+    width: 31.90%;
+    margin: auto;
+    padding-left: 25px;
+}
+
+.sec1 h2{
+    font-weight: lighter;
+        font-size: 19px;
+}
+
+
+
+.sec1 p{
+    line-height: 30px;
+}
+
+
+
+.sec2{
+    float: left;
+    text-align: center;
+    width: 31.90%;
+    margin: center;
+}
+
+
+.sec2 h2{
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+
+.sec2 p{
+    line-height: 30px;
+}
+
+
+
+
+.sec3{
+    float:right;
+    text-align: center;
+    width: 31.90%;
+    padding-right: 23px;
+}
+
+
+
+.sec3 h2{
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+
+
+.sec3 p{
+    line-height: 30px;
+}
+
+.clearfix{
+    clear:right;
+}
+
+
+.bakechs{
+    text-align: center;
+}
+
+
+
+
+.bakechs h2{
+    font-weight: lighter;
+    font-size: 27px;
+}
+
+.bakechs p{
+    color:#686868;
+    margin-bottom: 60px;
+}
+
+
+
+.baking img{
+    width: 340px;
+}
+
+
+/* fifth section "contact information" */
+
+
+.info{
+    background-color: #f8f8f8;
+    padding:65px 65px;
+    height: 550px;
+}
+
+
+
+.txtinfo{
+    vertical-align: top;
+    max-width: 500px;
+    float: left;
+}
+
+
+.txtinfo h2{
+font-weight: lighter;
+font-size: 29px;
+padding-top: 10px;
+}
+
+
+.txtinfo p{
+    color: #686868;
+    line-height: 31px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+
+
+.txtinfo img{
+    width: 7%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    background-color: #8e7754;
+}
+
+iframe{
+    float: right;
+    margin-top: 30px;
+}
+
+.clearfix{
+    clear:right;
+}
+
+
+/*sixth section "about us"*/
+
+
+.about{
+    background-color: #403d38;
+    padding: 35px 30px 20px 65px;
+    height: 350px;
+}
+
+
+.about h4{
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+.about p{
+    color: #969696;
+    list-style: none;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.about li{
+    color: #969696;
+    list-style: none;
+    line-height: 40px;
+    font-size: 14px;   
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:-44px ;
+}
+
+.abtus ,.special , .hours, .contact{
+    float: left;
+    max-width: 23%;
+    text-align: left;
+    margin-right: 22px;
+    
+}
+
+
+.abtus img ,.special img ,.hours img{
+    width: 6%;
+}
+
+
+.contact img{
+    width: 14%;
+    color: #969696;
+    list-style: none;
+    line-height: 36px;  
+    padding: 0px;
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:-20px ;
+}
+
+
+
+
+.clearfix{
+    clear: left;
+}
+
+
+/*seventh section "footer"*/
+
+.footer{
+    height: 200px;
+    background-color: #353330;
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+
+.footer img{
+    width: 320px;
+}
+
+
+.footer p{
+    color: #969696;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+.footimg img{
+    width: 3%;
+    background-color: #686868;
+    margin-right: 5px;
+}
